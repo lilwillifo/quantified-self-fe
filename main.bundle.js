@@ -344,7 +344,6 @@
 	var addNewFood = function addNewFood() {
 	  var foodName = $('#food-name').val();
 	  var foodCalories = $('#food-calories').val();
-
 	  foodsAPIFetch('', 'POST', { food: { name: foodName, calories: foodCalories } }).then(function (response) {
 	    return handleResponse(response);
 	  }).then(function (newFood) {
