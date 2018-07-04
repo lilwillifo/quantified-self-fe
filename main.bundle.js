@@ -413,7 +413,7 @@
 	  if (host === "localhost" || host === "127.0.0.1") {
 	    return "http://localhost:3000";
 	  } else {
-	    return "https://qs-express-mw.herokuapp.com/";
+	    return "https://qs-express-mw.herokuapp.com";
 	  }
 	};
 
