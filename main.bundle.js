@@ -411,9 +411,9 @@
 	var baseURL = function baseURL() {
 	  var host = window.location.hostname;
 	  if (host === "localhost" || host === "127.0.0.1") {
-	    return "http://localhost:3000";
+	    return "http://localhost:8000";
 	  } else {
-	    return "https://qs-express-mw.herokuapp.com";
+	    return "https://rocky-basin-21915.herokuapp.com";
 	  }
 	};
 
